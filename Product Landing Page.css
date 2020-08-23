@@ -1,0 +1,127 @@
+body{
+    background-color: #08AEEA;
+    text-align: center;
+    margin: 0px;
+
+}
+@media(max-width:650px){
+    img{
+        margin:0 auto;
+    }
+}
+
+header{
+    background-color: #08AEEA;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    justify-content: flex-start;
+    align-items: center;
+     position: fixed; 
+    flex-wrap: wrap;
+   
+    
+   }
+  
+#nav-bar li{
+    display:inline;
+    padding: 30px;
+    
+    
+}
+a:link, a:visited {
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  #space{
+      height: 250px;
+      margin: auto;
+      
+
+  }
+  
+a:hover {
+    color: yellow;
+}
+a:active
+
+nav li {
+    list-style: none;
+}
+
+#take-a-look{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+#features{
+    display: inline-block;
+    text-align: left;
+    max-width: 1000px;
+}
+
+
+.feature-text{
+   font-size: 20px;
+ }
+ h1{
+     font-size: 30px;
+ }
+#note{
+    width: 760px;
+    display: inline-block;
+    font-size: 20px;
+    text-align:left;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+#footer{
+    display: inline-block;
+    text-align: left;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+#package{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#duration{
+    background-color: #08AEEA;
+    background-image: linear-gradient(0deg, #FAF1EE 0%, #08AEEA 80%);
+    font-size: 18px;
+    margin: 5px 20px 10px 20px;   
+    padding: 50px;
+    border: 3px double gray;
+    border-radius: 10px;;
+    text-align: center;
+}
+.pricing{
+    font-size: 35px;
+    margin-botto
+    
+    
+}
+#email{
+    max-width: 300px;
+    width:100%;
+    justify-items: center;
+}
+#submit{
+    background-color: #08AEEA;
+    background-image: linear-gradient(0deg, #FAF1EE 10%, #08AEEA 80%);
+    margin-top: 10px;
+    margin: 10px 50% 10px 25%;
+    max-width: 150px;
+    width: 100%;
+    border-radius: 4px;
+    font-size: 18px;
+    justify-content: center;
+}
+.subscribe{
+    font-size: 18px;
+}
